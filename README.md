@@ -110,6 +110,7 @@ npm start
 - **Login Bug?** Delete `fastapi-backend/venv` and reinstall manually. Some bcrypt versions can clash.
 - **Database Missing?** Make sure MongoDB is active via `mongod` command on your system.
 
+
 ## 🤝 Community & License
 
 - [Review our Code of Conduct](./CODE_OF_CONDUCT.md)
