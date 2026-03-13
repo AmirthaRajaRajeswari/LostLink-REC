@@ -137,7 +137,7 @@ npm start
 **Terminal 3: Mobile App**
 ```bash
 cd frontend
-npm start
+npx expo start
 ```
 
 ---
