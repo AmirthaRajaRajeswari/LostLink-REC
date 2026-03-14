@@ -60,7 +60,7 @@ export const AuthProvider = ({ children }) => {
             setSplashLoading(true);
 
             // Artificial delay for splash screen (e.g. 5 seconds as requested)
-            const minimumLoadTime = new Promise(resolve => setTimeout(resolve, 5000));
+            const minimumLoadTime = new Promise(resolve => setTimeout(resolve, 2000));
             const authCheck = (async () => {
                 let userToken = await AsyncStorage.getItem('userToken');
                 let userInfo = await AsyncStorage.getItem('userInfo');

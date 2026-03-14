@@ -136,6 +136,8 @@ npm start
 
 **Terminal 3: Mobile App** 
 LostLink-REC\frontend\src\services\api.js - check the API_BASE_URL and update the IP address to your system's IP address
+
+check all the end points in the swagger ui http://localhost:8080/docs //If backend error check the terminal 1
 ```bash
 cd frontend
 npx expo start
